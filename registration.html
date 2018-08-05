@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="js/script.js"></script>
+     <script src="js/serverside.js"></script>
+</head>
+<body id="bodyId">
+   <div class="data-line clearfix">
+        <div class="data left">
+            <span>Session ID: </span>
+            <input type="hidden" name="session_id" id="session-id" value="">
+            <span id="session-id-o">nerf25-06-2017 12:47</span>
+        </div>
+        <div class="data left">
+            <span>Total players: </span>
+            <input type="hidden" name="total_players" id="total-players" value="0">
+            <span id="total-players-o">0</span>
+        </div>
+    </div>
+    <div id="timer-wrap" style="width: 100px; padding: 16px;">
+        <div id="timer-screen" style="font-size: 16px; padding: 8px; text-align: center">
+            <span></span>
+            <span>:</span>
+            <span></span>
+        </div>
+        <div class="button-blue" id="timer-start">Start</div>
+    </div>
+    <div class="content-wrap">
+        <div class="nav-panel clearfix">
+            <div class="nav-left">
+                <div class="text">Registration</div>
+            </div>
+            <div class="nav-right">
+                <div class="button" id="new-session">New session</div>
+                <div class="button" id="save-session">Save</div>
+            </div>
+            <div class="nav-center">
+                <input type="text" placeholder="Input card ID here" id="cardIdInput" autofocus>
+                <div class="button-green" id="addNewPlayerBtn">Add new player</div>
+            </div>
+        </div>
+        <div class="session-type-wrap">
+            <div class="session-button-wrap">
+                <input type="radio" name="session-type" value="1" id="single" checked>
+                <label class="session-button" for="single">Single session</label>
+            </div>
+            <div class="session-button-wrap">
+                <input type="radio" name="session-type" value="2" id="double">
+                <label class="session-button" for="double">Double session</label>
+            </div>
+            <div class="session-button-wrap disabled">
+                <input type="radio" name="session-type" value="3" id="tournament" disabled>
+                <label class="session-button" for="tournament">Tournament</label>
+            </div>
+        </div>
+        <div class="new-players" id="newPlayers">
+        
+<!--
+            <div class="player-wrap clearfix">
+                <input type="hidden" name="card_id1" value="NNN00000">
+                <div class="left-part clearfix">
+                    <div class="card-id">%card_id%</div>
+                    <input type="text" class="" placeholder="Input nickname here">
+                </div>
+                <div class="right-part clearfix">
+                    <div class="button-red remove-player">Remove player</div>
+                </div>
+            </div>
+-->
+        </div>
+    </div>
+</body>
+</html>

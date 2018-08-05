@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/serverside.js"></script>
+</head>
+<body id="bodyId">
+    <div class="content-wrap">
+        <div class="nav-panel clearfix">
+            <div class="nav-left">
+                <div class="text">Registration</div>
+            </div>
+            <div class="nav-right wauto">
+                <div class="button" id="start-session">Start session</div>
+            </div>
+        </div>
+        <div class="session-type-wrap">
+            <div class="session-button-wrap">
+                <input type="radio" name="session_type" value="1200" id="single" checked>
+                <label class="session-button" for="single">Single session</label>
+            </div>
+            <div class="session-button-wrap">
+                <input type="radio" name="session_type" value="2400" id="double">
+                <label class="session-button" for="double">Double session</label>
+            </div>
+        </div>
+        <div class="stats-wrap clearfix">
+            <div class="stats-left-wrap">
+                <div class="stats-header-wrap red clearfix">
+                    <div class="team left">
+                        <p>Team</p>
+                        <input type="text" class="team-name-input" placeholder="Team name" name="red" id="red-team-name-i">
+                    </div>
+                </div>
+            </div>
+            <div class="stats-right-wrap">
+                 <div class="stats-header-wrap blue clearfix">
+                    <div class="team right">
+                        <p>Team</p>
+                        <input type="text" class="team-name-input" placeholder="Team name" name="blue" id="blue-team-name-i">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scenarios-wrap clearfix">
+            <div class="bscenario-wrap">
+              <input type="radio" name="bscenario" id="bscenario1" value="team deathmatch" checked>
+               <label class="bscenario clearfix" for="bscenario1">
+                   <div>
+                        <p>Battle scenario 01</p>
+                        <h4>Team deathmatch</h4>
+                   </div>
+<!--                   <img src="img/bscen_01.png" alt="">-->
+                   <div class="bscenario-img img1"></div>
+               </label>
+            </div>
+            <div class="bscenario-wrap">
+              <input type="radio" name="bscenario" id="bscenario2" value="vip escort">
+               <label class="bscenario clearfix" for="bscenario2">
+                   <div>
+                       <p>Battle scenario 02</p>
+                        <h4>Vip escort</h4>
+                   </div>
+<!--                    <img src="img/bscen_02.png" alt="">-->
+                    <div class="bscenario-img img2"></div>
+               </label>
+            </div>
+            <div class="bscenario-wrap">
+              <input type="radio" name="bscenario" id="bscenario3" value="capture the flag">
+               <label class="bscenario clearfix" for="bscenario3">
+                    <div>
+                        <p>Battle scenario 03</p>
+                        <h4>Capture the flag</h4>
+                    </div>
+<!--                    <img src="img/bscen_03.png" alt="">-->
+                    <div class="bscenario-img img3"></div>
+               </label>
+            </div>
+            <div class="bscenario-wrap">
+              <input type="radio" name="bscenario" id="bscenario5" value="god mode">
+               <label class="bscenario clearfix" for="bscenario5">
+                    <div>
+                        <p>Battle scenario 04</p>
+                        <h4>God mode</h4>
+                    </div>
+<!--                    <img src="img/bscen_05.png" alt="">-->
+                    <div class="bscenario-img img5"></div>
+               </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

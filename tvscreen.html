@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/update.js"></script>
+</head>
+<body>
+    <div class="content-wrap">
+       <input type="hidden" name="sid" value="" id="sid">
+        <div class="nav-panel clearfix">
+            <div class="nav-left">
+                <div class="text" id="game-type-o">Team deathmatch</div>
+            </div>
+            <div class="nav-right">
+                <div class="text">Session ends</div>
+                <div class="text timer-stoped" id="timer-screen">
+                    <span>00</span>
+                    <span>:</span>
+                    <span>00</span>
+                </div>
+            </div>
+        </div>
+        <div class="tvscore clearfix">
+            <div class="stats-left-wrap">
+                <div class="stats-header-wrap red clearfix">
+                    <div class="team left">
+                        <p>Team</p>
+                        <h3 id="red-team-o">Red</h3>
+                    </div>
+                    <div class="score right" id="flag-red">
+                        <span>00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gametype-wrap">
+                <div class="gametype">
+                    <div class="gametype-img bscen01" id="gametypeimg"></div>
+                </div>
+            </div>
+            <div class="stats-right-wrap">
+                 <div class="stats-header-wrap blue clearfix">
+                    <div class="team right">
+                        <p>Team</p>
+                        <h3 id="blue-team-o">Blue</h3>
+                    </div>
+                    <div class="score left" id="flag-blue">
+                        <span>00</span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

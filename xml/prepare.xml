@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session>
+    <id>1491481490</id>
+    <team>
+        <red></red>
+        <blue></blue>
+        <all></all>
+    </team>
+    <status>open</status>
+    <players>
+        <player>
+            <team_color/>
+            <card_id/>
+            <nickname/>
+            <dead_time>0</dead_time>
+            <dead_count>0</dead_count>
+            <zombie_count>0</zombie_count>
+            <status/>
+        </player>
+    </players>
+<start_time>1492004312</start_time></session>
